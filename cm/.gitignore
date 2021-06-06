@@ -1,0 +1,6 @@
+binaries
+cm-lib\build
+cm-tests\build
+cm-ui\build
+installer\windows\packages\com.Client.cm\data
+installer\windows\CMinstaller.exe

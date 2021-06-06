@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Installer>
+    <Name>Client Management</Name>
+    <Version>1.0.0</Version>
+    <Title>Client Management Application Installer</Title>
+    <Publisher> JK_S Softwares</Publisher>
+    <StartMenuDir>Client Management</StartMenuDir>
+    <TargetDir>@HomeDir@/ClientManagement</TargetDir>
+</Installer>

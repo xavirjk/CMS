@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Package>
+    <DisplayName>Client Management Application</DisplayName>
+    <Description>Install the Client Management Application</Description>
+    <Version>1.0.0</Version>
+    <ReleaseDate>2020-06-02</ReleaseDate>
+    <Licenses>
+        <License name = "Fictional Training Exercise Agreement" file = "license.txt" />
+    </Licenses>
+    <Default>true</Default>
+</Package>
