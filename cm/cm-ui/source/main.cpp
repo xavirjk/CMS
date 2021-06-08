@@ -26,6 +26,12 @@ int main(int argc, char *argv[])
 
 	QGuiApplication app(argc, argv);
 
+    /***
+     * Register the classes type with QML engine
+     * adding the types metadata to a module CM, version number 1.0
+     * then give a reference to this type i.e MasterController in QML markup
+     */
+
 	qmlRegisterType<cm::controllers::MasterController>("CM", 1, 0, "MasterController");
 	qmlRegisterType<cm::controllers::NavigationController>("CM", 1, 0, "NavigationController");
 	qmlRegisterType<cm::controllers::CommandController>("CM", 1, 0, "CommandController");
@@ -45,6 +51,9 @@ int main(int argc, char *argv[])
 
     qmlRegisterType<cm::data::DropDownValue>("CM",1 , 0, "DropDownValue");
     qmlRegisterType<cm::data::DropDown>("CM", 1, 0, "DropDown");
+
+    // we instantiate the instance of MasterController and inject it into the root QML context
+
 	cm::controllers::MasterController masterController;
 
 	QQmlApplicationEngine engine;

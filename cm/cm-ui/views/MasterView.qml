@@ -25,6 +25,9 @@ Window {
         id: navigationBar
     }
     StackView {
+        /**
+         *Performs action similar to browser only that we're calling replace action
+         */
         id: contentFrame
         anchors {
             top: parent.top
